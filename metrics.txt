@@ -1,0 +1,165 @@
+Position_error Metrics
+Mean: 23.41286968854159
+Median: 24.635944331737516
+Standard_deviation: 16.034715305741624
+Maximum: 44.46809373240566
+Minimum: 0.03987938713040263
+Root_mean_square_error: 28.36975794497322
+Mean_absolute_error: 23.41286968854159
+
+Heading_error Metrics
+Mean: 0.18749219169013864
+Median: 0.17366360878210108
+Standard_deviation: 0.12361796576576874
+Maximum: 0.5375692035500679
+Minimum: 0.0003924377744413121
+Root_mean_square_error: 0.22451967278949697
+Mean_absolute_error: 0.18749219169013864
+
+Pp_x Metrics
+Mean: 33.416442242319754
+Median: 22.54703998565674
+Standard_deviation: 57.70966430042276
+Maximum: 145.9544677734375
+Minimum: -58.53636932373047
+Root_mean_square_error: 66.64439989493513
+Mean_absolute_error: 54.16096163703591
+
+Pp_y Metrics
+Mean: 15.98389655446021
+Median: 25.362422943115234
+Standard_deviation: 68.3618484845607
+Maximum: 118.95453643798828
+Minimum: -109.26373291015625
+Root_mean_square_error: 70.14974054753627
+Mean_absolute_error: 60.79924717031094
+
+Pp_heading Metrics
+Mean: -0.11702047216380952
+Median: 0.1317455917596817
+Standard_deviation: 1.73972148486209
+Maximum: 3.140979766845703
+Minimum: -3.118379592895508
+Root_mean_square_error: 1.7421958546970433
+Mean_absolute_error: 1.5216484587755204
+
+T_x Metrics
+Mean: 12.547357531445096
+Median: 16.881435253464204
+Standard_deviation: 53.853561128479114
+Maximum: 111.44853872629709
+Minimum: -75.29116522142827
+Root_mean_square_error: 55.251933085762126
+Mean_absolute_error: 47.04013622386487
+
+T_y Metrics
+Mean: 22.63798368621843
+Median: 27.47593536421504
+Standard_deviation: 71.24455304262764
+Maximum: 135.7031525868626
+Minimum: -108.27297841278607
+Root_mean_square_error: 74.69771230493384
+Mean_absolute_error: 64.32161926165568
+
+T_heading Metrics
+Mean: 0.0066994612323295665
+Median: 0.3532759519133222
+Standard_deviation: 1.75376970423203
+Maximum: 3.1341303308311765
+Minimum: -3.124104585225302
+Root_mean_square_error: 1.7523106100448786
+Mean_absolute_error: 1.5651464190641
+
+T_velocity Metrics
+Mean: 0.7742168885371008
+Median: 0.8118842385415588
+Standard_deviation: 5.0947305026786305
+Maximum: 12.304192346970874
+Minimum: -10.42279197276775
+Root_mean_square_error: 5.148994065048545
+Mean_absolute_error: 4.118016203779924
+
+T_acceleration Metrics
+Mean: 17.39742692944927
+Median: 17.02395975002132
+Standard_deviation: 5.75949860002595
+Maximum: 30.337254829969947
+Minimum: 6.916232110110119
+Root_mean_square_error: 18.324481724354477
+Mean_absolute_error: 17.39742692944927
+
+Timestep Metrics
+Mean: 30.621057858522263
+Median: 30.15208562057424
+Standard_deviation: 17.19935228461254
+
+Correlations
+position_error vs heading_error: 0.14377716356577736
+position_error vs pp_x: 0.4736784981595846
+position_error vs pp_y: 0.8901971233253972
+position_error vs pp_heading: 0.20092707731093515
+position_error vs t_x: 0.21339986742372213
+position_error vs t_y: 0.9209999626298311
+position_error vs t_heading: 0.19146439788221278
+position_error vs t_velocity: 0.012728461900449154
+position_error vs t_acceleration: 0.12430317541734529
+position_error vs timestep: 0.40404489778960534
+heading_error vs pp_x: -0.07201736270915515
+heading_error vs pp_y: 0.08624928174246557
+heading_error vs pp_heading: 0.1865547101453343
+heading_error vs t_x: -0.1299699494132026
+heading_error vs t_y: 0.08002071805623966
+heading_error vs t_heading: 0.20092634497355294
+heading_error vs t_velocity: 0.03070295823718216
+heading_error vs t_acceleration: -0.019700987205741913
+heading_error vs timestep: 0.4328905869675476
+pp_x vs pp_y: 0.17556835912244456
+pp_x vs pp_heading: 0.5404188198592089
+pp_x vs t_x: 0.9610796817867452
+pp_x vs t_y: 0.2754233075000106
+pp_x vs t_heading: 0.5334123646769998
+pp_x vs t_velocity: 0.03927481946064194
+pp_x vs t_acceleration: 0.34933605944140717
+pp_x vs timestep: -0.4055319408131987
+pp_y vs pp_heading: 0.035178757024756854
+pp_y vs t_x: -0.08988583840195113
+pp_y vs t_y: 0.9937894621177085
+pp_y vs t_heading: 0.019521469767895764
+pp_y vs t_velocity: -0.035094783717808366
+pp_y vs t_acceleration: -0.04726042308487023
+pp_y vs timestep: 0.5381215704761149
+pp_heading vs t_x: 0.5330391416175257
+pp_heading vs t_y: 0.07702766780934106
+pp_heading vs t_heading: 0.9373361196552237
+pp_heading vs t_velocity: 0.015664104032837467
+pp_heading vs t_acceleration: 0.10362323663995798
+pp_heading vs timestep: -0.0830224301489135
+t_x vs t_y: 0.012163150530892395
+t_x vs t_heading: 0.5283412216853787
+t_x vs t_velocity: 0.039588118528609405
+t_x vs t_acceleration: 0.3571160025669479
+t_x vs timestep: -0.5737768863495618
+t_y vs t_heading: 0.061268063270275334
+t_y vs t_velocity: -0.03069220635075854
+t_y vs t_acceleration: 0.00922796877031872
+t_y vs timestep: 0.4988439608591416
+t_heading vs t_velocity: 0.04169328105608726
+t_heading vs t_acceleration: 0.1553145000279764
+t_heading vs timestep: -0.07147247614104699
+t_velocity vs t_acceleration: 0.0627791698296899
+t_velocity vs timestep: -0.029604945296098042
+t_acceleration vs timestep: 0.0008741516017839567
+
+Normality Test (Shapiro-Wilk) Results
+position_error: p-value = 4.936115991956643e-22
+heading_error: p-value = 3.147603705455637e-11
+pp_x: p-value = 1.4397880457317491e-11
+pp_y: p-value = 1.3300977344272297e-13
+pp_heading: p-value = 2.9142832941752206e-16
+t_x: p-value = 3.964838006520477e-12
+t_y: p-value = 1.1267260047057373e-13
+t_heading: p-value = 3.880164493049956e-16
+t_velocity: p-value = 0.0002765317331068218
+t_acceleration: p-value = 3.0640190384900734e-10
+timestep: p-value = 1.2910946183691818e-12
+
